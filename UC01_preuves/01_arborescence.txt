@@ -1,0 +1,73 @@
+data/retail_project/
+    data/
+        customer/
+            customer.dat  (13 279 063 octets)
+        customer_address/
+            customer_address.dat  (5 387 229 octets)
+        customer_demographics/
+            customer_demographics.dat  (77 753 083 octets)
+        date_dim/
+            date_dim.dat  (15 395 800 octets)
+        household_demographics/
+            household_demographics.dat  (155 100 octets)
+        income_band/
+            income_band.dat  (327 octets)
+        inventory/
+            inventory.dat  (424 943 678 octets)
+        item/
+            item.dat  (6 799 286 octets)
+        item_marketprices/
+            item_marketprices.dat  (4 201 170 octets)
+            item_marketprices_audit.csv  (273 octets)
+        product_reviews/
+            product_reviews.dat  (56 355 389 octets)
+        promotion/
+            promotion.dat  (46 396 octets)
+        reason/
+            reason.dat  (3 105 octets)
+        ship_mode/
+            ship_mode.dat  (1 220 octets)
+        store/
+            store.dat  (3 386 octets)
+        store_returns/
+            store_returns.dat  (4 337 400 octets)
+        store_sales/
+            store_sales.dat  (92 764 700 octets)
+        time_dim/
+            time_dim.dat  (5 107 780 octets)
+        warehouse/
+            warehouse.dat  (584 octets)
+        web_clickstreams/
+            web_clickstreams.dat  (178 722 140 octets)
+        web_page/
+            web_page.dat  (8 040 octets)
+        web_returns/
+            web_returns.dat  (5 383 513 octets)
+        web_sales/
+            web_sales.dat  (133 790 574 octets)
+        web_site/
+            web_site.dat  (8 838 octets)
+    data_refresh/
+        customer/
+            customer.dat  (134 360 octets)
+        customer_address/
+            customer_address.dat  (54 587 octets)
+        inventory/
+            inventory.dat  (4 292 915 octets)
+        item/
+            item.dat  (69 173 octets)
+        item_marketprices/
+            item_marketprices.dat  (42 547 octets)
+            item_marketprices_audit.csv  (151 009 octets)
+        product_reviews/
+            product_reviews.dat  (573 685 octets)
+        store_returns/
+            store_returns.dat  (48 825 octets)
+        store_sales/
+            store_sales.dat  (922 171 octets)
+        web_clickstreams/
+            web_clickstreams.dat  (1 821 864 octets)
+        web_returns/
+            web_returns.dat  (55 952 octets)
+        web_sales/
+            web_sales.dat  (1 378 425 octets)

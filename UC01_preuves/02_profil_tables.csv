@@ -1,0 +1,35 @@
+﻿Jeu;Table;Colonnes;Lignes lues;Lignes mal formées;Clé testée;Lignes à clé vide;Lignes en doublon sur la clé;Clé unique;Lignes strictement identiques
+initial;customer;18;99000;0;c_customer_sk;0;0;oui;0
+initial;customer_address;13;49500;0;ca_address_sk;0;0;oui;0
+initial;customer_demographics;9;1920800;0;cd_demo_sk;0;0;oui;0
+initial;date_dim;28;109573;0;d_date_sk;0;0;oui;0
+initial;household_demographics;5;7200;0;hd_demo_sk;0;0;oui;0
+initial;income_band;3;20;0;ib_income_band_sk;0;0;oui;0
+initial;inventory;4;23255100;0;inv_date_sk + inv_item_sk + inv_warehouse_sk;0;0;oui;0
+initial;item;22;17820;0;i_item_sk;0;0;oui;0
+initial;item_marketprices;6;89100;0;imp_sk;0;0;oui;0
+initial;product_reviews;8;89991;0;pr_review_sk;0;0;oui;0
+initial;promotion;19;300;0;p_promo_sk;0;0;oui;0
+initial;reason;3;35;0;r_reason_sk;0;0;oui;0
+initial;ship_mode;6;20;0;sm_ship_mode_sk;0;0;oui;0
+initial;store;29;12;0;s_store_sk;0;0;oui;0
+initial;store_returns;20;37902;0;sr_ticket_number + sr_item_sk;0;313;non;0
+initial;store_sales;23;667579;0;ss_ticket_number + ss_item_sk;0;8174;non;0
+initial;time_dim;10;86400;0;t_time_sk;0;0;oui;0
+initial;warehouse;14;5;0;w_warehouse_sk;0;0;oui;0
+initial;web_clickstreams;6;6770550;0;(aucune);;;;166
+initial;web_page;14;60;0;wp_web_page_sk;0;0;oui;0
+initial;web_returns;24;38487;0;wr_order_number + wr_item_sk;0;298;non;0
+initial;web_sales;34;668052;0;ws_order_number + ws_item_sk;0;8067;non;0
+initial;web_site;26;30;0;web_site_sk;0;0;oui;0
+rafraichissement;customer;18;1000;0;c_customer_sk;0;0;oui;0
+rafraichissement;customer_address;13;500;0;ca_address_sk;0;0;oui;0
+rafraichissement;inventory;4;234900;0;inv_date_sk + inv_item_sk + inv_warehouse_sk;0;0;oui;0
+rafraichissement;item;22;180;0;i_item_sk;0;0;oui;0
+rafraichissement;item_marketprices;6;900;0;imp_sk;0;0;oui;0
+rafraichissement;product_reviews;8;909;0;pr_review_sk;0;0;oui;0
+rafraichissement;store_returns;20;426;0;sr_ticket_number + sr_item_sk;0;0;oui;0
+rafraichissement;store_sales;23;6632;0;ss_ticket_number + ss_item_sk;0;90;non;0
+rafraichissement;web_clickstreams;6;68988;0;(aucune);;;;2
+rafraichissement;web_returns;24;400;0;wr_order_number + wr_item_sk;0;2;non;0
+rafraichissement;web_sales;34;6879;0;ws_order_number + ws_item_sk;0;78;non;0

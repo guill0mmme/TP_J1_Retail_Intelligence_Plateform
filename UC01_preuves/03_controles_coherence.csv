@@ -1,0 +1,29 @@
+﻿Jeu;Contrôle;Lignes contrôlées;Conformes;Non conformes
+initial;ss_net_paid = ss_ext_sales_price - ss_coupon_amt;667579;667579;0
+initial;ss_ext_sales_price = ss_sales_price x ss_quantity;667579;667579;0
+initial;ss_net_profit = ss_net_paid - ss_ext_wholesale_cost;667579;667579;0
+initial;ws_net_paid = ws_ext_sales_price - ws_coupon_amt;668052;668052;0
+initial;ws_ext_sales_price = ws_sales_price x ws_quantity;668052;668052;0
+initial;ws_net_profit = ws_net_paid - ws_ext_wholesale_cost;668052;668052;0
+initial;ticket magasin : un seul client, une seule date, un seul magasin;89100;89100;0
+initial;commande web : un seul client, une seule date;89100;89100;0
+initial;store_returns : date de retour postérieure ou égale à la date de vente;37902;37902;0
+initial;store_returns : retour retrouvé dans store_sales (sr_ticket_number + sr_item_sk);37902;37902;0
+initial;store_returns : quantité retournée <= quantité vendue;37744;37744;0
+initial;web_returns : date de retour postérieure ou égale à la date de vente;38487;38487;0
+initial;web_returns : retour retrouvé dans web_sales (wr_order_number + wr_item_sk);38487;38487;0
+initial;web_returns : quantité retournée <= quantité vendue;38337;38337;0
+rafraichissement;ss_net_paid = ss_ext_sales_price - ss_coupon_amt;6632;6632;0
+rafraichissement;ss_ext_sales_price = ss_sales_price x ss_quantity;6632;6632;0
+rafraichissement;ss_net_profit = ss_net_paid - ss_ext_wholesale_cost;6632;6632;0
+rafraichissement;ws_net_paid = ws_ext_sales_price - ws_coupon_amt;6879;6879;0
+rafraichissement;ws_ext_sales_price = ws_sales_price x ws_quantity;6879;6879;0
+rafraichissement;ws_net_profit = ws_net_paid - ws_ext_wholesale_cost;6879;6879;0
+rafraichissement;ticket magasin : un seul client, une seule date, un seul magasin;900;900;0
+rafraichissement;commande web : un seul client, une seule date;900;900;0
+rafraichissement;store_returns : date de retour postérieure ou égale à la date de vente;19;19;0
+rafraichissement;store_returns : retour retrouvé dans store_sales (sr_ticket_number + sr_item_sk);426;19;407
+rafraichissement;store_returns : quantité retournée <= quantité vendue;19;19;0
+rafraichissement;web_returns : date de retour postérieure ou égale à la date de vente;29;29;0
+rafraichissement;web_returns : retour retrouvé dans web_sales (wr_order_number + wr_item_sk);400;29;371
+rafraichissement;web_returns : quantité retournée <= quantité vendue;28;28;0
