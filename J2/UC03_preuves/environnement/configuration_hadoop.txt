@@ -1,0 +1,26 @@
+Tue Nov 17 13:56:58 CET 2026
+HADOOP_HOME=/opt/hadoop
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-arm64
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property>
+    <name>fs.defaultFS</name>
+    <value>hdfs://localhost:9000</value>
+  </property>
+</configuration>
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <property>
+    <name>dfs.replication</name>
+    <value>1</value>
+  </property>
+  <property>
+    <name>dfs.namenode.name.dir</name>
+    <value>file:///home/ubuntu/hadoop-data/namenode</value>
+  </property>
+  <property>
+    <name>dfs.datanode.data.dir</name>
+    <value>file:///home/ubuntu/hadoop-data/datanode</value>
+  </property>
+</configuration>
+Aucune ligne ERROR ou FATAL dans les journaux

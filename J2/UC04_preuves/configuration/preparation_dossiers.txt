@@ -1,0 +1,25 @@
+Tue Nov 17 15:16:43 CET 2026
+
+$ sudo mkdir -p /data/nifi/input /data/nifi/archive /data/nifi/error
+
+$ sudo chown -R ubuntu:ubuntu /data/nifi
+
+$ cp /home/ubuntu/projet/data/retail_project/data/store/store.dat /data/nifi/input/
+
+$ hdfs dfs -mkdir -p /retail-lake/raw/nifi
+
+$ ls -l /data/nifi /data/nifi/input
+/data/nifi:
+total 12
+drwxr-xr-x 2 ubuntu ubuntu 4096 Nov 17 15:16 archive
+drwxr-xr-x 2 ubuntu ubuntu 4096 Nov 17 15:16 error
+drwxr-xr-x 2 ubuntu ubuntu 4096 Nov 17 15:16 input
+
+/data/nifi/input:
+total 4
+-rw-rw-r-- 1 ubuntu ubuntu 3386 Nov 17 15:16 store.dat
+
+$ hdfs dfs -ls /retail-lake/raw
+Found 2 items
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 15:16 /retail-lake/raw/nifi
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/raw/tpcxbb

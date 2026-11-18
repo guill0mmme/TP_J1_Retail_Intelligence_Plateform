@@ -1,0 +1,15 @@
+Tue Nov 17 14:49:34 CET 2026
+
+$ ls -l /home/ubuntu/projet/data/retail_project/data/store_sales/store_sales.dat
+-rw-rw-rw- 1 ubuntu ubuntu 92764700 Nov 15 23:34 /home/ubuntu/projet/data/retail_project/data/store_sales/store_sales.dat
+
+$ file /home/ubuntu/projet/data/retail_project/data/store_sales/store_sales.dat
+/home/ubuntu/projet/data/retail_project/data/store_sales/store_sales.dat: ASCII text, with CRLF line terminators
+
+$ head -n 3 /home/ubuntu/projet/data/retail_project/data/store_sales/store_sales.dat
+36890|71480|10001|44404|493944|2898|44093|10|294|0|31|18.00|30.78|23.08|238.70|715.48|558.00|954.18|21.46|0.00|715.48|736.94|157.48
+36890|71480|10000|44404|493944|2898|44093|10|279|0|54|99.21|148.82|83.34|3535.92|4500.36|5357.34|8036.28|225.02|0.00|4500.36|4725.38|-856.98
+36890|71480|15556|44404|493944|2898|44093|10|114|0|39|79.49|94.59|83.24|442.65|3246.36|3100.11|3689.01|184.07|616.81|2629.55|2813.62|-470.56
+
+$ wc -l /home/ubuntu/projet/data/retail_project/data/store_sales/store_sales.dat
+667579 /home/ubuntu/projet/data/retail_project/data/store_sales/store_sales.dat

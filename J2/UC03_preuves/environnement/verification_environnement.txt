@@ -1,0 +1,72 @@
+Tue Nov 17 13:53:09 CET 2026
+Description:	Ubuntu 24.04.5 LTS
+aarch64
+Python 3.12.3
+openjdk version "21.0.13.0.3" 2026-10-24
+OpenJDK Runtime Environment (build 21.0.13.0.3+1-1-24.04.1-Ubuntu)
+OpenJDK 64-Bit Server VM (build 21.0.13.0.3+1-1-24.04.1-Ubuntu, mixed mode, sharing)
+Hadoop 3.5.0
+Source code repository https://github.com/apache/hadoop.git -r dbcc7cd797100e6b32cd84f85b53a5193a5f9af0
+Compiled by cnauroth on 2026-03-24T16:57Z
+Compiled on platform linux-aarch_64
+Compiled with protoc 3.25.5
+From source with checksum 64582ed0a62a169c39a19c734a8f33b5
+This command was run using /opt/hadoop/share/hadoop/common/hadoop-common-3.5.0.jar
+3856 DataNode
+3683 NameNode
+4374 NiFi
+4073 SecondaryNameNode
+4347 BootstrapProcess
+5037 Jps
+Configured Capacity: 40483942400 (37.70 GB)
+Present Capacity: 32414834688 (30.19 GB)
+DFS Remaining: 32414806016 (30.19 GB)
+DFS Used: 28672 (28 KB)
+DFS Used%: 0.00%
+Replicated Blocks:
+	Under replicated blocks: 0
+	Blocks with corrupt replicas: 0
+	Missing blocks: 0
+	Missing blocks (with replication factor 1): 0
+	Badly Distributed Blocks: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+Erasure Coded Block Groups: 
+	Low redundancy block groups: 0
+	Block groups with corrupt internal blocks: 0
+	Missing block groups: 0
+	Badly Distributed Blocks: 0
+	Low redundancy blocks with highest priority to recover: 0
+	Pending deletion blocks: 0
+
+-------------------------------------------------
+Live datanodes (1):
+
+Name: 127.0.0.1:9866 (localhost)
+Hostname: retail
+Decommission Status : Normal
+Configured Capacity: 40483942400 (37.70 GB)
+DFS Used: 28672 (28 KB)
+Non DFS Used: 8052330496 (7.50 GB)
+DFS Remaining: 32414806016 (30.19 GB)
+DFS Used%: 0.00%
+DFS Remaining%: 80.07%
+Configured Cache Capacity: 0 (0 B)
+Cache Used: 0 (0 B)
+Cache Remaining: 0 (0 B)
+Cache Used%: 100.00%
+Cache Remaining%: 0.00%
+Xceivers: 0
+Last contact: Tue Nov 17 13:53:07 CET 2026
+Last Block Report: Tue Nov 17 13:40:46 CET 2026
+Num of Blocks: 0
+
+
+ls: `/retail-lake': No such file or directory
+
+JAVA_HOME=/usr/lib/jvm/java-21-openjdk-arm64
+NIFI_HOME=/opt/nifi
+
+2026-11-17 13:53:12,661 INFO [main] org.apache.nifi.bootstrap.Command Application Process [4374] Command Status [SUCCESS] HTTP 200
+2026-11-17 13:53:12,663 INFO [main] org.apache.nifi.bootstrap.Command Status: UP
+

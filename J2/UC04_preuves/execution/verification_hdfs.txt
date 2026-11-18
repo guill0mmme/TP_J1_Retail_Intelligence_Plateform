@@ -1,0 +1,11 @@
+Tue Nov 17 17:32:16 CET 2026
+
+$ hdfs dfs -ls -h /retail-lake/raw/nifi
+Found 1 items
+-rw-r--r--   1 ubuntu supergroup      3.3 K 2026-11-17 17:28 /retail-lake/raw/nifi/store.dat
+
+$ hdfs dfs -du -h /retail-lake/raw/nifi
+3.3 K  3.3 K  /retail-lake/raw/nifi/store.dat
+
+$ ls -l /data/nifi/input
+total 0

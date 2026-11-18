@@ -1,0 +1,10 @@
+Tue Nov 17 16:22:12 CET 2026
+nifi-framework-api-2.12.0.
+total 73M
+-rw-rw-r-- 1 ubuntu ubuntu 57M Sep 10 22:04 nifi-hadoop-libraries-nar-2.12.0.nar
+-rw-rw-r-- 1 ubuntu ubuntu 17M Sep 10 22:00 nifi-hadoop-nar-2.12.0.nar
+2026-11-17 16:22:16,597 INFO [NAR Auto-Loader] org.apache.nifi.nar.NarAutoLoaderTask Found ./extensions/nifi-hadoop-nar-2.12.0.nar in auto-load directory
+2026-11-17 16:22:16,892 INFO [NAR Auto-Loader] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /opt/nifi/./work/nar/extensions/nifi-hadoop-libraries-nar-2.12.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-hadoop-libraries-nar-2.12.0.nar-unpacked]
+2026-11-17 16:22:16,914 INFO [NAR Auto-Loader] o.a.n.n.StandardExtensionDiscoveringManager Loaded extensions for org.apache.nifi:nifi-hadoop-libraries-nar:2.12.0 in 22 millis
+2026-11-17 16:22:22,043 INFO [NAR Auto-Loader] org.apache.nifi.nar.NarClassLoaders Loaded NAR file: /opt/nifi/./work/nar/extensions/nifi-hadoop-nar-2.12.0.nar-unpacked as class loader org.apache.nifi.nar.NarClassLoader[./work/nar/extensions/nifi-hadoop-nar-2.12.0.nar-unpacked]
+2026-11-17 16:22:22,048 INFO [NAR Auto-Loader] o.a.n.n.StandardExtensionDiscoveringManager Loaded extensions for org.apache.nifi:nifi-hadoop-nar:2.12.0 in 5 millis

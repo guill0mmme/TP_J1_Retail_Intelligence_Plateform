@@ -1,0 +1,27 @@
+Tue Nov 17 14:45:53 CET 2026
+
+$ hdfs dfs -mkdir -p /retail-lake/raw/tpcxbb/initial
+
+$ hdfs dfs -mkdir -p /retail-lake/raw/tpcxbb/refresh
+
+$ hdfs dfs -mkdir -p /retail-lake/bronze/tpcxbb
+
+$ hdfs dfs -mkdir -p /retail-lake/silver
+
+$ hdfs dfs -mkdir -p /retail-lake/gold
+
+$ hdfs dfs -mkdir -p /retail-lake/quality
+
+$ hdfs dfs -mkdir -p /retail-lake/logs
+
+$ hdfs dfs -ls -R /retail-lake
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/bronze
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/bronze/tpcxbb
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/gold
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:46 /retail-lake/logs
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:46 /retail-lake/quality
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/raw
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/raw/tpcxbb
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/raw/tpcxbb/initial
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/raw/tpcxbb/refresh
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:45 /retail-lake/silver
