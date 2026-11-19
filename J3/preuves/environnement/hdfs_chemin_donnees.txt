@@ -1,0 +1,5 @@
+Wed Nov 18 14:43:11 CET 2026
+Found 1 items
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-17 14:46 /retail-lake
+Found 1 items
+-rw-r--r--   1 ubuntu supergroup   92764700 2026-11-17 14:49 /retail-lake/raw/tpcxbb/initial/store_sales.dat

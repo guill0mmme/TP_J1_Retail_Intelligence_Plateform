@@ -1,0 +1,17 @@
+Wed Nov 18 19:22:42 CET 2026
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/11/18 19:22:42 WARN Utils: Your hostname, retail, resolves to a loopback address: 127.0.1.1; using 192.168.252.2 instead (on interface eth0)
+26/11/18 19:22:42 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/18 19:22:43 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/18 19:22:43 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+Contrôle | Règle | Résultat | Statut
+Complétude | Champs requis non nuls (7 colonnes) | 0 valeur(s) nulle(s) | OK
+Unicité / clé candidate | d_date_sk unique (Silver date_dim) | 0 doublon(s) | OK
+Validité des types | Types attendus apres nettoyage | 0 ecart(s) de type | OK
+Cohérence | net_paid = ext_sales_price - coupon_amt (à 0,01 près) | 0 écart(s) | OK
+Volumes | Somme nb_lignes Gold = lignes Silver | 667579 / 667579 | OK
+Intégrité | Toute date de vente existe dans date_dim | 0 vente(s) orpheline(s) | OK

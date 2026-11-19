@@ -1,0 +1,18 @@
+Wed Nov 18 14:02:04 CET 2026
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/11/18 14:02:05 WARN Utils: Your hostname, retail, resolves to a loopback address: 127.0.1.1; using 192.168.252.2 instead (on interface eth0)
+26/11/18 14:02:05 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/18 14:02:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Version Spark : 4.3.0
++---------+----------------+
+|  magasin|chiffre_affaires|
++---------+----------------+
+|Magasin A|          1200.0|
+|Magasin B|           850.0|
+|Magasin C|          1600.0|
++---------+----------------+
+

@@ -1,0 +1,7 @@
+Wed Nov 18 15:03:31 CET 2026
+4
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       1.8Gi       3.2Gi       1.2Mi       3.0Gi       6.0Gi
+Swap:             0B          0B          0B
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        38G  8.3G   30G  22% /

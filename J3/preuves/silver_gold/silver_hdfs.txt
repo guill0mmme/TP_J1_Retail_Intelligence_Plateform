@@ -1,0 +1,15 @@
+Wed Nov 18 17:17:32 CET 2026
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-18 17:16 /retail-lake/silver/date_dim
+-rw-r--r--   1 ubuntu supergroup          0 2026-11-18 17:16 /retail-lake/silver/date_dim/_SUCCESS
+-rw-r--r--   1 ubuntu supergroup    1185385 2026-11-18 17:16 /retail-lake/silver/date_dim/part-00000-abf27784-8ad2-44f8-98e6-3d934563c443-c000.snappy.parquet
+-rw-r--r--   1 ubuntu supergroup    1166073 2026-11-18 17:16 /retail-lake/silver/date_dim/part-00001-abf27784-8ad2-44f8-98e6-3d934563c443-c000.snappy.parquet
+-rw-r--r--   1 ubuntu supergroup    1142365 2026-11-18 17:16 /retail-lake/silver/date_dim/part-00002-abf27784-8ad2-44f8-98e6-3d934563c443-c000.snappy.parquet
+-rw-r--r--   1 ubuntu supergroup     168035 2026-11-18 17:16 /retail-lake/silver/date_dim/part-00003-abf27784-8ad2-44f8-98e6-3d934563c443-c000.snappy.parquet
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-18 17:16 /retail-lake/silver/store_sales
+-rw-r--r--   1 ubuntu supergroup          0 2026-11-18 17:16 /retail-lake/silver/store_sales/_SUCCESS
+-rw-r--r--   1 ubuntu supergroup   10445203 2026-11-18 17:16 /retail-lake/silver/store_sales/part-00000-af44def4-a56d-491e-aa2f-894284537134-c000.snappy.parquet
+-rw-r--r--   1 ubuntu supergroup   10400536 2026-11-18 17:16 /retail-lake/silver/store_sales/part-00001-af44def4-a56d-491e-aa2f-894284537134-c000.snappy.parquet
+-rw-r--r--   1 ubuntu supergroup   10392450 2026-11-18 17:16 /retail-lake/silver/store_sales/part-00002-af44def4-a56d-491e-aa2f-894284537134-c000.snappy.parquet
+-rw-r--r--   1 ubuntu supergroup    8664427 2026-11-18 17:16 /retail-lake/silver/store_sales/part-00003-af44def4-a56d-491e-aa2f-894284537134-c000.snappy.parquet
+3.5 M   3.5 M   /retail-lake/silver/date_dim
+38.1 M  38.1 M  /retail-lake/silver/store_sales

@@ -1,0 +1,81 @@
+Wed Nov 18 17:15:45 CET 2026
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/11/18 17:15:46 WARN Utils: Your hostname, retail, resolves to a loopback address: 127.0.1.1; using 192.168.252.2 instead (on interface eth0)
+26/11/18 17:15:46 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/18 17:15:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/18 17:15:47 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[Stage 142:>                                                        (0 + 4) / 4]                                                                                [Stage 154:>                                                        (0 + 4) / 4][Stage 154:============================>                            (2 + 2) / 4]                                                                                26/11/18 17:16:06 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[Stage 337:==========================================>              (3 + 1) / 4]                                                                                ss_cdemo_sk : 238 -> 238
+ss_hdemo_sk : 295 -> 295
+ss_addr_sk : 448 -> 448
+ss_promo_sk : 158 -> 158
+store_sales - lignes en double -> 0
+store_sales - prix de vente nul : 3324
+store_sales - net_profit négatif : 495971
+root
+ |-- ss_sold_date_sk: integer (nullable = true)
+ |-- ss_sold_time_sk: integer (nullable = true)
+ |-- ss_item_sk: integer (nullable = true)
+ |-- ss_customer_sk: integer (nullable = true)
+ |-- ss_cdemo_sk: integer (nullable = true)
+ |-- ss_hdemo_sk: integer (nullable = true)
+ |-- ss_addr_sk: integer (nullable = true)
+ |-- ss_store_sk: integer (nullable = true)
+ |-- ss_promo_sk: integer (nullable = true)
+ |-- ss_ticket_number: integer (nullable = true)
+ |-- ss_quantity: integer (nullable = true)
+ |-- ss_wholesale_cost: double (nullable = true)
+ |-- ss_list_price: double (nullable = true)
+ |-- ss_sales_price: double (nullable = true)
+ |-- ss_ext_discount_amt: double (nullable = true)
+ |-- ss_ext_sales_price: double (nullable = true)
+ |-- ss_ext_wholesale_cost: double (nullable = true)
+ |-- ss_ext_list_price: double (nullable = true)
+ |-- ss_ext_tax: double (nullable = true)
+ |-- ss_coupon_amt: double (nullable = true)
+ |-- ss_net_paid: double (nullable = true)
+ |-- ss_net_paid_inc_tax: double (nullable = true)
+ |-- ss_net_profit: double (nullable = true)
+ |-- source_fichier: string (nullable = true)
+ |-- date_traitement: timestamp (nullable = true)
+
+lignes relues : 667579 / lignes attendues : 667579
+date_dim - lignes lues : 109573
+date_dim - lignes en double -> 0
+root
+ |-- d_date_sk: integer (nullable = true)
+ |-- d_date_id: string (nullable = true)
+ |-- d_date: date (nullable = true)
+ |-- d_month_seq: integer (nullable = true)
+ |-- d_week_seq: integer (nullable = true)
+ |-- d_quarter_seq: integer (nullable = true)
+ |-- d_year: integer (nullable = true)
+ |-- d_dow: integer (nullable = true)
+ |-- d_moy: integer (nullable = true)
+ |-- d_dom: integer (nullable = true)
+ |-- d_qoy: integer (nullable = true)
+ |-- d_fy_year: integer (nullable = true)
+ |-- d_fy_quarter_seq: integer (nullable = true)
+ |-- d_fy_week_seq: integer (nullable = true)
+ |-- d_day_name: string (nullable = true)
+ |-- d_quarter_name: string (nullable = true)
+ |-- d_holiday: string (nullable = true)
+ |-- d_weekend: string (nullable = true)
+ |-- d_following_holiday: string (nullable = true)
+ |-- d_first_dom: integer (nullable = true)
+ |-- d_last_dom: integer (nullable = true)
+ |-- d_same_day_ly: integer (nullable = true)
+ |-- d_same_day_lq: integer (nullable = true)
+ |-- d_current_day: string (nullable = true)
+ |-- d_current_week: string (nullable = true)
+ |-- d_current_month: string (nullable = true)
+ |-- d_current_quarter: string (nullable = true)
+ |-- d_current_year: string (nullable = true)
+ |-- source_fichier: string (nullable = true)
+ |-- date_traitement: timestamp (nullable = true)
+
+lignes relues : 109573 / lignes attendues : 109573

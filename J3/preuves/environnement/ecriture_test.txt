@@ -1,0 +1,4 @@
+Wed Nov 18 14:57:51 CET 2026
+Found 2 items
+-rw-r--r--   1 ubuntu supergroup          0 2026-11-18 14:56 /retail-lake/tp3/test/_SUCCESS
+-rw-r--r--   1 ubuntu supergroup       6473 2026-11-18 14:56 /retail-lake/tp3/test/part-00000-ef7c0026-32de-449c-bd61-a6dcb0b09e5f-c000.snappy.parquet

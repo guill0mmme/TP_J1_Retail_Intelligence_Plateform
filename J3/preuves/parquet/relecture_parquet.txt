@@ -1,0 +1,35 @@
+Wed Nov 18 18:33:58 CET 2026
+WARNING: Using incubator modules: jdk.incubator.vector
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+26/11/18 18:33:59 WARN Utils: Your hostname, retail, resolves to a loopback address: 127.0.1.1; using 192.168.252.2 instead (on interface eth0)
+26/11/18 18:33:59 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+26/11/18 18:33:59 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/11/18 18:34:00 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+root
+ |-- annee: integer (nullable = true)
+ |-- mois: integer (nullable = true)
+ |-- ca_net: decimal(15,2) (nullable = true)
+ |-- quantite: long (nullable = true)
+ |-- nb_transactions: long (nullable = true)
+ |-- nb_lignes: long (nullable = true)
+ |-- panier_moyen: decimal(16,2) (nullable = true)
+
++-----+----+-----------+--------+---------------+---------+------------+
+|annee|mois|ca_net     |quantite|nb_transactions|nb_lignes|panier_moyen|
++-----+----+-----------+--------+---------------+---------+------------+
+|2001 |1   |19279633.40|574902  |1528           |11378    |12617.56    |
+|2001 |2   |17989228.47|529739  |1380           |10491    |13035.67    |
+|2001 |3   |19630651.08|569439  |1528           |11431    |12847.28    |
+|2001 |4   |18915426.86|557668  |1479           |11081    |12789.34    |
+|2001 |5   |19786451.19|584690  |1528           |11474    |12949.25    |
+|2001 |6   |19399244.10|562702  |1479           |11124    |13116.46    |
+|2001 |7   |19985336.68|576657  |1528           |11458    |13079.41    |
+|2001 |8   |19552826.03|578727  |1527           |11455    |12804.73    |
+|2001 |9   |19442330.41|567922  |1479           |11125    |13145.59    |
+|2001 |10  |20078324.18|578060  |1528           |11442    |13140.26    |
++-----+----+-----------+--------+---------------+---------+------------+
+only showing top 10 rows
+Nombre de lignes relues : 60

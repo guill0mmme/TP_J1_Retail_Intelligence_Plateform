@@ -1,0 +1,5 @@
+Wed Nov 18 17:31:51 CET 2026
+drwxr-xr-x   - ubuntu supergroup          0 2026-11-18 17:30 /retail-lake/gold/ventes_mensuelles
+-rw-r--r--   1 ubuntu supergroup          0 2026-11-18 17:30 /retail-lake/gold/ventes_mensuelles/_SUCCESS
+-rw-r--r--   1 ubuntu supergroup       3503 2026-11-18 17:30 /retail-lake/gold/ventes_mensuelles/part-00000-95b9f94d-a273-40b5-bb05-0466a6d5be8d-c000.snappy.parquet
+3.4 K  3.4 K  /retail-lake/gold/ventes_mensuelles
